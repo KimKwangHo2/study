@@ -1,0 +1,5 @@
+﻿  Textures.cpp
+c:\users\b409-40\documents\visual studio projects\directxsamples\textures\textures.cpp(57): warning C4005: 'D3DFVF_CUSTOMVERTEX': 매크로 재정의
+  c:\users\b409-40\documents\visual studio projects\directxsamples\textures\textures.cpp(55): note: 'D3DFVF_CUSTOMVERTEX'의 이전 정의를 참조하십시오.
+  Textures_2010.vcxproj -> C:\Users\B409-40\Documents\Visual Studio Projects\DirectXSamples\Textures\Debug\Textures.exe
+  Textures_2010.vcxproj -> C:\Users\B409-40\Documents\Visual Studio Projects\DirectXSamples\Textures\Debug\Textures.pdb (Full PDB)
