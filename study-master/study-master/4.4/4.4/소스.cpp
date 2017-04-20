@@ -11,13 +11,12 @@ struct GameObject
 	char	shape[20];
 
 	//함수 뒤 const 읽기만 하겟다
-	void draw(char *screen) const
+	GameObject(char *s, int p)
 	{
-		if (pos >= 0 && pos < SCREEN_SIZE)
-		{
-			memcpy(screen + pos, shape, strlen(shape));
-		}
+		pos = p;
+		strcpy(shape, "---");
 	}
+
 };
 
 struct Bullet
@@ -174,20 +173,21 @@ int main()
 	char screen[SCREEN_SIZE + 1];
 	const int bullets_len = 30;
 
-	GameObject player;
-	player.pos = rand() % SCREEN_SIZE;
-	strcpy(player.shape, "<>_<>");
+	strucr GameObject player{"^_^",30};
 
-	GameObject enemy;
-	enemy.pos = rand() % SCREEN_SIZE;
-	strcpy(enemy.shape, "*____*");
+	strucr GameObject enemy{"<_>", 60};
 
-	Bullet bullet[bullets_len];
+	int i-0;
+	int j{2};
+	int k(30);
+
+
+	strucr Bullet bullet[bullets_len];
 
 	for (int i = 0; i < bullets_len; i++)
 	{
 		strcpy(myData.shape, "-=->");
-		myData.pos = -1;
+		bullet[i].myData.pos = -1;
 	}
 
 
